@@ -1,0 +1,86 @@
+/* General reset and styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #bfcbd3; /* Updated for softer tone */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+.app-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1a2a3a; /* Slightly darker */
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #2f3e4e; /* Harmonized with h1 */
+}
+
+/* Answer buttons */
+button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #1e90ff; /* Updated */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #1c75d8; /* Updated hover */
+  transform: scale(1.02);
+}
+
+button:disabled {
+  background-color: #cccccc; /* Lighter gray */
+  cursor: not-allowed;
+}
+
+/* Feedback */
+.feedback {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #2ecc71; /* More vivid green */
+}
+
+/* Score */
+.score {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #1a2a3a;
+}
+
+/* Like/dislike buttons (inline) */
+.feedback-buttons button {
+  width: 48%;
+  margin: 0.5rem 1%;
+  background-color: #f5a623; /* Softer orange */
+}
+
+.feedback-buttons button:hover {
+  background-color: #d48806; /* Hover for new orange */
+}
